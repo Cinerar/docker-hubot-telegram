@@ -1,0 +1,14 @@
+# Node files
+node_modules
+.hubot_history
+
+# vim swp files
+.vimrc
+*.swp
+
+# OSX os files
+.DS_Store
+.DS_Store?
+
+# Support scripts
+run.sh
