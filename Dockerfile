@@ -51,8 +51,6 @@ RUN npm install hubot-telegram --install && npm install \
     npm install hubot-s3-brain --save && npm instal
 
 ADD hubot-scripts.json /hubot/
-# ADD startbot.sh /hubot/
-# ADD env.sh /hubot/
 
 # RUN npm install hubot-standup-alarm --save && npm install
 ADD external-scripts.json /hubot/
